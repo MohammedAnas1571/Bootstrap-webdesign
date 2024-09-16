@@ -131,4 +131,114 @@
     }
   }
 
-  
+  .book {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+   .main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+   }
+
+   .main-text h1 span{
+    color: #ffa500;
+   }
+   .book .card {
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+   }
+   .book .card img{
+    height: 465px;
+   }
+   .book .row{
+    margin-top:30px
+   }
+   .book form input {
+    padding:10px;
+    color:black;
+    border: none;
+    outline:none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+
+   }
+   .book form textarea{
+    box-shadow: 0px 5px 5px -6px black;
+    border: none;
+    resize: none;
+    border-radius: 10px;
+    
+   }
+   .book .submit{
+    width:160px;
+    font-size: 16px;
+    font-weight: 550;
+    background-color: #ffa500;
+    color: white;
+    transition: 0.5s;
+   }
+   .book .submit:hover{
+    width:170px
+   }
+
+   @media(max-width:750px){
+    .book {
+        padding:20px
+   }
+   .main-text h1{
+    margin-top: 20px;
+   }
+}
+
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+  color: #ffa500;
+}
+.packages .card{
+    border-radius: 5px;
+    border:none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px
+}
+.packages .card img{
+    border-radius: 5px;
+    height: 300px;
+    transition: transform 0.3s  ease-in-out;
+
+}
+.packages .card img:hover{
+    transform: scale(1.1);
+
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body  p{
+    font-size: 15px;
+}
+.packages .card .star{
+    color: #ffa500;
+    font-size: 15px;
+}
+.packages .card .card-body  h6{
+    font-size: 20px;
+}
+
+.packages .card .card-body a{
+    background-color: #ffa500;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
